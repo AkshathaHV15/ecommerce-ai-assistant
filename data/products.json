@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Wireless Bluetooth Headphones",
+        "description": "High-quality wireless headphones with noise cancellation.",
+        "price": 79.99,
+        "order_number": "ORD001",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Over-Ear Noise Cancelling Headphones",
+            "Bluetooth In-Ear Earbuds",
+            "Wired Studio Headphones"
+        ]
+    },
+    {
+        "name": "Smart Fitness Tracker",
+        "description": "Water-resistant fitness tracker with heart rate monitoring.",
+        "price": 49.99,
+        "order_number": "ORD002",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "GPS Running Watch",
+            "Health and Activity Tracker",
+            "Smartwatch with GPS"
+        ]
+    },
+    {
+        "name": "4K Ultra HD Smart TV",
+        "description": "55-inch 4K Ultra HD Smart TV with HDR.",
+        "price": 599.99,
+        "order_number": "ORD003",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "65-inch 4K Ultra HD Smart TV",
+            "Samsung 55-inch LED TV",
+            "LG OLED Smart TV"
+        ]
+    },
+    {
+        "name": "Portable Bluetooth Speaker",
+        "description": "Compact wireless speaker with powerful sound.",
+        "price": 29.99,
+        "order_number": "ORD004",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Mini Wireless Speaker",
+            "Outdoor Bluetooth Speaker",
+            "Smart Home Speaker"
+        ]
+    },
+    {
+        "name": "Electric Toothbrush",
+        "description": "Rechargeable electric toothbrush with timer.",
+        "price": 39.99,
+        "order_number": "ORD005",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Ultrasonic Electric Toothbrush",
+            "Manual Toothbrush Set",
+            "Flossing Device"
+        ]
+    },
+    {
+        "name": "Stainless Steel Water Bottle",
+        "description": "Insulated water bottle to keep drinks cold or hot.",
+        "price": 19.99,
+        "order_number": "ORD006",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Collapsible Water Bottle",
+            "Bamboo Water Bottle",
+            "Plastic Sports Water Bottle"
+        ]
+    },
+    {
+        "name": "Gaming Mouse",
+        "description": "High precision gaming mouse with customizable DPI.",
+        "price": 59.99,
+        "order_number": "ORD007",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Wireless Gaming Mouse",
+            "RGB Gaming Mouse Pad",
+            "Gaming Keyboard"
+        ]
+    },
+    {
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat for all types of workouts.",
+        "price": 29.99,
+        "order_number": "ORD008",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Foam Roller",
+            "Resistance Bands",
+            "Dumbbell Set"
+        ]
+    },
+    {
+        "name": "Smart LED Light Bulbs",
+        "description": "Color-changing LED light bulbs controllable via smartphone.",
+        "price": 39.99,
+        "order_number": "ORD009",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Smart Light Switch",
+            "LED Floor Lamp",
+            "Smart Home Hub"
+        ]
+    },
+    {
+        "name": "Bluetooth Car Adapter",
+        "description": "Adapter to stream music from phone to car stereo.",
+        "price": 24.99,
+        "order_number": "ORD010",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Car FM Transmitter",
+            "Aux Cable",
+            "Portable Car Jump Starter"
+        ]
+    },
+    {
+        "name": "Wireless Charging Pad",
+        "description": "Fast wireless charging pad for smartphones.",
+        "price": 19.99,
+        "order_number": "ORD011",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Magnetic Wireless Charger",
+            "USB-C Fast Charger",
+            "Portable Power Bank"
+        ]
+    },
+    {
+        "name": "Laptop Stand",
+        "description": "Ergonomic laptop stand for comfortable working.",
+        "price": 34.99,
+        "order_number": "ORD012",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Laptop Cooling Pad",
+            "Adjustable Monitor Stand",
+            "Wrist Rest"
+        ]
+    },
+    {
+        "name": "Electric Kettle",
+        "description": "1.7L electric kettle with rapid boiling technology.",
+        "price": 29.99,
+        "order_number": "ORD013",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Tea Infuser",
+            "Stovetop Kettle",
+            "Coffee Maker"
+        ]
+    },
+    {
+        "name": "Personal Blender",
+        "description": "Compact blender for smoothies and shakes.",
+        "price": 39.99,
+        "order_number": "ORD014",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Juicer",
+            "Food Processor",
+            "Ice Cream Maker"
+        ]
+    },
+    {
+        "name": "Wireless Security Camera",
+        "description": "1080p HD wireless security camera with night vision.",
+        "price": 99.99,
+        "order_number": "ORD015",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Smart Doorbell",
+            "Indoor Security Camera",
+            "Home Security System"
+        ]
+    },
+    {
+        "name": "Smart Door Lock",
+        "description": "Keyless smart door lock with remote access.",
+        "price": 149.99,
+        "order_number": "ORD016",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smart Lock with Keypad",
+            "Smart Home Security System",
+            "Video Doorbell"
+        ]
+    },
+    {
+        "name": "Fitness Resistance Bands",
+        "description": "Set of 5 resistance bands for strength training.",
+        "price": 24.99,
+        "order_number": "ORD017",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Dumbbell Set",
+            "Kettlebell",
+            "Balance Ball"
+        ]
+    },
+    {
+        "name": "Portable Hard Drive",
+        "description": "1TB portable hard drive for data storage.",
+        "price": 59.99,
+        "order_number": "ORD018",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "External SSD",
+            "USB Flash Drive",
+            "Network Attached Storage"
+        ]
+    },
+    {
+        "name": "Smart Home Hub",
+        "description": "Central hub to control all smart home devices.",
+        "price": 99.99,
+        "order_number": "ORD019",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smart Light Bulbs",
+            "Smart Thermostat",
+            "Smart Plug"
+        ]
+    },
+    {
+        "name": "Virtual Reality Headset",
+        "description": "Immersive VR headset for gaming and experiences.",
+        "price": 299.99,
+        "order_number": "ORD020",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "VR Controllers",
+            "Gaming Chair",
+            "Game Console"
+        ]
+    },
+    {
+        "name": "Digital Alarm Clock",
+        "description": "Snooze function and USB charging ports.",
+        "price": 19.99,
+        "order_number": "ORD021",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Smart Speaker with Clock",
+            "Analog Alarm Clock",
+            "Digital Thermometer"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "High-speed wireless router with extended range.",
+        "price": 89.99,
+        "order_number": "ORD022",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Mesh WiFi System",
+            "WiFi Extender",
+            "Ethernet Switch"
+        ]
+    },
+    {
+        "name": "Stylish Backpack",
+        "description": "Durable backpack with multiple compartments.",
+        "price": 49.99,
+        "order_number": "ORD023",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Laptop Messenger Bag",
+            "Travel Duffel Bag",
+            "School Backpack"
+        ]
+    },
+    {
+        "name": "Luxury Watch",
+        "description": "Elegant watch with stainless steel band.",
+        "price": 199.99,
+        "order_number": "ORD024",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Chronograph Watch",
+            "Leather Strap Watch"
+        ]
+    },
+    {
+        "name": "Gaming Chair",
+        "description": "Ergonomic chair designed for long gaming sessions.",
+        "price": 149.99,
+        "order_number": "ORD025",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Office Chair",
+            "Adjustable Gaming Desk",
+            "Footrest"
+        ]
+    },
+    {
+        "name": "Smart Thermostat",
+        "description": "Programmable thermostat to save energy.",
+        "price": 129.99,
+        "order_number": "ORD026",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smart Smoke Detector",
+            "Smart Air Purifier",
+            "Wi-Fi Thermostat"
+        ]
+    },
+    {
+        "name": "Noise Cancelling Earbuds",
+        "description": "In-ear wireless earbuds with noise cancellation.",
+        "price": 99.99,
+        "order_number": "ORD027",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "True Wireless Earbuds",
+            "Wired Earbuds",
+            "Over-Ear Headphones"
+        ]
+    },
+    {
+        "name": "Bluetooth Keyboard",
+        "description": "Compact wireless keyboard for easy typing.",
+        "price": 39.99,
+        "order_number": "ORD028",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Mechanical Gaming Keyboard",
+            "Wired USB Keyboard",
+            "Keyboard and Mouse Combo"
+        ]
+    },
+    {
+        "name": "Coffee Maker",
+        "description": "Single-serve coffee maker with built-in frother.",
+        "price": 89.99,
+        "order_number": "ORD029",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Espresso Machine",
+            "French Press",
+            "Coffee Grinder"
+        ]
+    },
+    {
+        "name": "Photo Printer",
+        "description": "Compact printer for high-quality photo printing.",
+        "price": 149.99,
+        "order_number": "ORD030",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Portable Printer",
+            "All-in-One Printer",
+            "Photo Paper"
+        ]
+    },
+    {
+        "name": "Electric Skillet",
+        "description": "Non-stick electric skillet with adjustable temperature.",
+        "price": 59.99,
+        "order_number": "ORD031",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Induction Cooktop",
+            "Slow Cooker",
+            "Air Fryer"
+        ]
+    },
+    {
+        "name": "Smartphone Gimbal Stabilizer",
+        "description": "Stabilizer for smooth video recording.",
+        "price": 79.99,
+        "order_number": "ORD032",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Tripod",
+            "Camera Lens",
+            "Drone"
+        ]
+    },
+    {
+        "name": "Winter Jacket",
+        "description": "Warm insulated jacket for cold weather.",
+        "price": 89.99,
+        "order_number": "ORD033",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Rain Jacket",
+            "Puffer Vest",
+            "Windbreaker"
+        ]
+    },
+    {
+        "name": "Wireless Earphones",
+        "description": "Lightweight earphones with long battery life.",
+        "price": 49.99,
+        "order_number": "ORD034",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Neckband Bluetooth Earphones",
+            "Noise Isolating Earbuds",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Portable Mini Projector",
+        "description": "Compact projector for movies and presentations.",
+        "price": 149.99,
+        "order_number": "ORD035",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Screen Projector",
+            "Projector Stand",
+            "Projection Screen"
+        ]
+    },
+    {
+        "name": "Electric Rice Cooker",
+        "description": "Multi-function rice cooker with steamer.",
+        "price": 59.99,
+        "order_number": "ORD036",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Pressure Cooker",
+            "Slow Cooker",
+            "Steamer Basket"
+        ]
+    },
+    {
+        "name": "Fitness Jump Rope",
+        "description": "Adjustable jump rope for cardio workouts.",
+        "price": 19.99,
+        "order_number": "ORD037",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Plyometric Box",
+            "Balance Trainer",
+            "Resistance Bands"
+        ]
+    },
+    {
+        "name": "Air Purifier",
+        "description": "HEPA air purifier for clean indoor air.",
+        "price": 129.99,
+        "order_number": "ORD038",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Dehumidifier",
+            "Humidifier",
+            "Smart Air Quality Monitor"
+        ]
+    },
+    {
+        "name": "Wireless Car Charger",
+        "description": "Fast charging wireless car mount for smartphones.",
+        "price": 34.99,
+        "order_number": "ORD039",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Car Phone Holder",
+            "Bluetooth Car Adapter",
+            "USB Car Charger"
+        ]
+    },
+    {
+        "name": "Smart Refrigerator",
+        "description": "Refrigerator with touchscreen and internet connectivity.",
+        "price": 1999.99,
+        "order_number": "ORD040",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smart Oven",
+            "Dishwasher",
+            "Smart Microwave"
+        ]
+    },
+    {
+        "name": "Outdoor Grill",
+        "description": "Gas grill with side burner and storage.",
+        "price": 299.99,
+        "order_number": "ORD041",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Charcoal Grill",
+            "Grilling Tools Set",
+            "Outdoor Dining Set"
+        ]
+    },
+    {
+        "name": "Electric Pressure Washer",
+        "description": "High-pressure washer for outdoor cleaning.",
+        "price": 149.99,
+        "order_number": "ORD042",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Garden Hose",
+            "Pressure Washer Accessories",
+            "Lawn Mower"
+        ]
+    },
+    {
+        "name": "LED Desk Lamp",
+        "description": "Adjustable desk lamp with USB charging port.",
+        "price": 29.99,
+        "order_number": "ORD043",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Table Lamp",
+            "Clip-On Lamp",
+            "Smart LED Bulb"
+        ]
+    },
+    {
+        "name": "Digital Camera",
+        "description": "24MP DSLR camera with lens kit.",
+        "price": 499.99,
+        "order_number": "ORD044",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Mirrorless Camera",
+            "Camera Tripod",
+            "Camera Bag"
+        ]
+    },
+    {
+        "name": "Camping Tent",
+        "description": "Waterproof tent for 4 people.",
+        "price": 129.99,
+        "order_number": "ORD045",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Sleeping Bag",
+            "Camping Stove",
+            "Portable Cooler"
+        ]
+    },
+    {
+        "name": "Smartwatch with Heart Rate Monitor",
+        "description": "Feature-rich smartwatch with fitness tracking.",
+        "price": 199.99,
+        "order_number": "ORD046",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Fitness Tracker",
+            "Heart Rate Monitor",
+            "Smart Fitness Scale"
+        ]
+    },
+    {
+        "name": "Classic Leather Wallet",
+        "description": "Elegant wallet made from genuine leather.",
+        "price": 39.99,
+        "order_number": "ORD047",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Travel Wallet",
+            "Cardholder",
+            "Money Clip"
+        ]
+    },
+    {
+        "name": "Electric Grill",
+        "description": "Indoor electric grill with adjustable temperature.",
+        "price": 79.99,
+        "order_number": "ORD048",
+        "tracking_status": "In Transit",
+        "similar_recommendations": [
+            "Non-Stick Grill Pan",
+            "Contact Grill",
+            "Grilling Tools Set"
+        ]
+    },
+    {
+        "name": "Wireless Gaming Headset",
+        "description": "Surround sound gaming headset with microphone.",
+        "price": 99.99,
+        "order_number": "ORD049",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Gaming Mouse",
+            "Gaming Chair",
+            "Gaming Monitor"
+        ]
+    },
+    {
+        "name": "Pet Water Fountain",
+        "description": "Automatic water fountain for pets.",
+        "price": 39.99,
+        "order_number": "ORD050",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Pet Food Dispenser",
+            "Cat Litter Box",
+            "Pet Bed"
+        ]
+    }
+]

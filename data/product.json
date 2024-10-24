@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Camera",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 138.34,
+        "order_number": "ORD001",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Smartwatch",
+            "Camera"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "Latest smartphone with cutting-edge features.",
+        "price": 217.45,
+        "order_number": "ORD002",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Camera",
+            "Laptop",
+            "Bluetooth Speaker"
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "description": "Latest smartphone with cutting-edge features.",
+        "price": 220.99,
+        "order_number": "ORD003",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Tablet",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Tablet",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 171.53,
+        "order_number": "ORD004",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Smartphone",
+            "Wireless Headphones",
+            "Bluetooth Speaker"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Noise-cancelling wireless headphones.",
+        "price": 78.57,
+        "order_number": "ORD005",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smartphone",
+            "Bluetooth Speaker",
+            "Camera"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 73.24,
+        "order_number": "ORD006",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Laptop",
+            "Bluetooth Speaker",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 265.07,
+        "order_number": "ORD007",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Camera",
+            "Wireless Router",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 62.9,
+        "order_number": "ORD008",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Tablet",
+            "Laptop"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Latest smartphone with cutting-edge features.",
+        "price": 132.97,
+        "order_number": "ORD009",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Smartphone",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 167.76,
+        "order_number": "ORD010",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Tablet",
+            "Bluetooth Speaker",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 97.87,
+        "order_number": "ORD011",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Smartphone",
+            "Laptop"
+        ]
+    },
+    {
+        "name": "Tablet",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 81.46,
+        "order_number": "ORD012",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Smartphone",
+            "Wireless Headphones",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Professional camera for stunning photos.",
+        "price": 216.81,
+        "order_number": "ORD013",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Smartphone",
+            "Laptop"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 138.26,
+        "order_number": "ORD014",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Laptop",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Noise-cancelling wireless headphones.",
+        "price": 199.86,
+        "order_number": "ORD015",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Tablet",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 220.86,
+        "order_number": "ORD016",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Camera",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 156.16,
+        "order_number": "ORD017",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Smartwatch",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 233.74,
+        "order_number": "ORD018",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Smartphone",
+            "Bluetooth Speaker",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Tablet",
+        "description": "Noise-cancelling wireless headphones.",
+        "price": 243.51,
+        "order_number": "ORD019",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Laptop",
+            "Camera"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "High-speed wireless router with extended range.",
+        "price": 114.77,
+        "order_number": "ORD020",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Laptop",
+            "Smartphone",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Professional camera for stunning photos.",
+        "price": 265.75,
+        "order_number": "ORD021",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Bluetooth Speaker",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 88.14,
+        "order_number": "ORD022",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Camera",
+            "Wireless Headphones",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 213.36,
+        "order_number": "ORD023",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Camera",
+            "Laptop"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 237.2,
+        "order_number": "ORD024",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Laptop",
+            "Camera",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Tablet",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 167.9,
+        "order_number": "ORD025",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Smartphone",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "High-speed wireless router with extended range.",
+        "price": 117.38,
+        "order_number": "ORD026",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Laptop",
+            "Smartwatch",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 74.4,
+        "order_number": "ORD027",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Camera",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 208.25,
+        "order_number": "ORD028",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Smartphone",
+            "Wireless Router",
+            "Bluetooth Speaker"
+        ]
+    },
+    {
+        "name": "Wireless Headphones",
+        "description": "Latest smartphone with cutting-edge features.",
+        "price": 243.08,
+        "order_number": "ORD029",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Laptop",
+            "Wireless Headphones",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "High-speed wireless router with extended range.",
+        "price": 111.64,
+        "order_number": "ORD030",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Camera",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 79.61,
+        "order_number": "ORD031",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Smartwatch",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 129.99,
+        "order_number": "ORD032",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Smartphone",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 121.07,
+        "order_number": "ORD033",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Camera",
+            "Smartwatch",
+            "Laptop"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 273.39,
+        "order_number": "ORD034",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Smartphone",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Wireless Headphones",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 292.71,
+        "order_number": "ORD035",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Tablet",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 197.67,
+        "order_number": "ORD036",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Tablet",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Wireless Headphones",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 148.98,
+        "order_number": "ORD037",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Laptop",
+            "Wireless Headphones",
+            "Camera"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 139.08,
+        "order_number": "ORD038",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Wireless Router",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "High-speed wireless router with extended range.",
+        "price": 227.02,
+        "order_number": "ORD039",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Wireless Headphones",
+            "Camera",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Camera",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 149.1,
+        "order_number": "ORD040",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Tablet",
+            "Bluetooth Speaker",
+            "Wireless Headphones"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 273.54,
+        "order_number": "ORD041",
+        "tracking_status": "Processing",
+        "similar_recommendations": [
+            "Smartphone",
+            "Bluetooth Speaker",
+            "Smartwatch"
+        ]
+    },
+    {
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling wireless headphones.",
+        "price": 268.71,
+        "order_number": "ORD042",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smartphone",
+            "Smartwatch",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "High-speed wireless router with extended range.",
+        "price": 262.32,
+        "order_number": "ORD043",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Wireless Headphones",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Tablet",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 125.75,
+        "order_number": "ORD044",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smartphone",
+            "Laptop",
+            "Camera"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Compact tablet for on-the-go entertainment.",
+        "price": 193.6,
+        "order_number": "ORD045",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Smartwatch",
+            "Bluetooth Speaker",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "price": 234.32,
+        "order_number": "ORD046",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Bluetooth Speaker",
+            "Smartphone",
+            "Tablet"
+        ]
+    },
+    {
+        "name": "Wireless Router",
+        "description": "High-speed wireless router with extended range.",
+        "price": 215.09,
+        "order_number": "ORD047",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Tablet",
+            "Wireless Headphones",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Wireless Headphones",
+        "description": "Latest smartphone with cutting-edge features.",
+        "price": 185.58,
+        "order_number": "ORD048",
+        "tracking_status": "Shipped",
+        "similar_recommendations": [
+            "Smartphone",
+            "Camera",
+            "Wireless Router"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "description": "Sleek and powerful laptop for all your needs.",
+        "price": 223.81,
+        "order_number": "ORD049",
+        "tracking_status": "Returned",
+        "similar_recommendations": [
+            "Wireless Router",
+            "Smartwatch",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "description": "Stylish smartwatch with fitness tracking.",
+        "price": 126.93,
+        "order_number": "ORD050",
+        "tracking_status": "Delivered",
+        "similar_recommendations": [
+            "Laptop",
+            "Smartwatch",
+            "Wireless Headphones"
+        ]
+    }
+]
