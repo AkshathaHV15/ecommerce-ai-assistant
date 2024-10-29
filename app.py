@@ -9,7 +9,7 @@ from faiss_vector import FAISSDatabase
 import re
 
 # Set your Gemini API key
-api_key = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY")
+api_key = os.environ.get("GEMINI_API_KEY", "API_KEY")
 
 # Configure the Gemini API
 genai.configure(api_key=api_key)
@@ -39,19 +39,9 @@ chat_session = model.start_chat(
     history=[
         {
             "role": "user",
-    "parts": [
-        "You are an eCommerce chatbot designed to assist users with their shopping-related inquiries. Your primary functions include:\n"
-        "1. Providing detailed information about products, including descriptions, prices, availability, and specifications.\n"
-        "2. Assisting with order-related queries such as tracking, order status, and returns.\n"
-        "3. Making recommendations based on user preferences and past purchases.\n"
-        "4. Answering questions related to payment options, shipping methods, and customer service.\n"
-        "\n"
-        "Ensure that your responses are strictly within the eCommerce domain. If a user asks something outside of this context, politely respond with: 'I'm here to assist with eCommerce-related queries. Please ask about products, orders, or services related to shopping.'\n"
-        "\n"
-        "Avoid providing information unrelated to shopping, products, or services. Do not engage in casual conversation or answer general knowledge questions unless they are part of the eCommerce domain.\n"
-        "\n"
-        "Stick to the eCommerce context, and ensure that all responses are informative, relevant, and helpful for the user's shopping experience."
-    ]
+            "parts": [
+                "You are an eCommerce chatbot designed to assist users with their shopping-related inquiries."
+            ]
         },
         {
             "role": "model",
@@ -86,6 +76,32 @@ def get_product_details(order_number):
             return product  # Return the entire product object
     return None
 
+# Function to construct prompt based on user query type
+def construct_prompt(user_input, product_details):
+    return f"""
+    You are an eCommerce chatbot. Answer the user's query based on the following product details only. 
+
+    Product Details:
+    - **Product Name:** {product_details['name']}
+    - **Description:** {product_details['description']}
+    - **Price:** ${product_details['price']}
+    - **Tracking Status:** {product_details['tracking_status']}
+    - **Estimated Delivery:** {product_details.get('estimated_delivery', 'N/A')}
+    - **Carrier:** {product_details.get('carrier', 'N/A')}
+    - **Similar Recommendations:** {", ".join(product_details['similar_recommendations'])}
+
+    User Query: "{user_input}"
+
+    Instructions:
+    1. If the user asks for the **price**, respond with "The price of this item is ${product_details['price']}".
+    2. If the user asks for a **description**, respond with: "{product_details['description']}".
+    3. If the user asks for the **product name**, respond with: "{product_details['name']}".
+    4. For **order tracking**, give the tracking status: "{product_details['tracking_status']}".
+    5. For **estimated delivery**, state the estimated delivery date if available.
+    6. If the user’s query is not specific to any of the above, generate a relevant and informative response within the eCommerce context.
+    7. If the query is outside of eCommerce topics, respond politely with: "I'm here to assist with eCommerce-related queries. Please ask about products, orders, or services related to shopping."
+    """
+
 # Create a form for user input and button
 with st.form("chat_form"):
     user_input = st.text_input("You:", key="user_input_input")
@@ -100,26 +116,9 @@ with st.form("chat_form"):
             product_details = get_product_details(order_number)
             if product_details:
                 # Construct response based on user query
-                if "description" in user_input.lower():
-                    response_text = f"**Description:** {product_details['description']}"
-                elif "price" in user_input.lower():
-                    response_text = f"**Price:** *${product_details['price']}*"
-                elif "tracking status" in user_input.lower():
-                    response_text = (
-                        f"**Order Status for Order Number: {order_number}**\n"
-                        f"- **Tracking Status:** *{product_details['tracking_status']}*\n"
-                        f"- **Estimated Delivery:** *{product_details.get('estimated_delivery', 'N/A')}*\n"
-                        f"- **Carrier:** *{product_details.get('carrier', 'N/A')}*\n"
-                    )
-                else:
-                    response_text = (
-                        f"**Product Details for Order Number: {order_number}**\n"
-                        f"- **Product Name:** *{product_details['name']}*\n"
-                        f"- **Description:** *{product_details['description']}*\n"
-                        f"- **Price:** *${product_details['price']}*\n"
-                        f"- **Tracking Status:** *{product_details['tracking_status']}*\n"
-                        f"- **Similar Recommendations:**\n- " + "\n- ".join(product_details['similar_recommendations'])
-                    )
+                prompt = construct_prompt(user_input, product_details)
+                response = model.generate_content(prompt)
+                response_text = response.candidates[0].content.parts[0].text
             else:
                 response_text = "Order number not found."
         else:
